@@ -1,0 +1,78 @@
+@import "colors.scss";
+
+// defaults:
+.btn {
+  transition: 0.5s;
+  border: unset !important;
+  outline: unset !important;
+  color: $black;
+}
+
+.btn:not(.dropdown-toggle) {
+  height: 40px;
+  line-height: 1.9;
+}
+
+// sub-classes:
+.btn-primary {
+  background-color: $primary !important;
+  color: $white !important;
+  border: 1px solid #7b4998 !important;
+}
+.btn-secondary {
+  background-color: $secondary !important;
+  color: $white !important;
+  border: 1px solid $secondary !important;
+}
+
+// outlined
+.btn-outline-primary {
+  background-color: $white !important;
+  border: 1px solid $primary !important;
+  color: $primary !important;
+}
+.btn-outline-secondary {
+  background-color: $white !important;
+  border: 1px solid $secondary !important;
+  color: $secondary !important;
+}
+
+.btn-outline-dark {
+  background-color: $white !important;
+  border: 1px solid $black !important;
+  color: $black !important;
+}
+
+// hover
+.btn:hover:enabled {
+  transition: 0.5s;
+}
+.btn-primary:hover:enabled {
+  background-color: $secondary !important;
+  border-color: #15b8c6 !important;
+}
+.btn-outline-primary:hover:enabled {
+  background-color: $primary !important;
+  color: $white !important;
+}
+.btn-outline-secondary:hover:enabled {
+  background-color: $secondary !important;
+  color: $white !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: $black !important;
+  border: 1px solid $black !important;
+  color: $white !important;
+}
+
+// focus
+.btn:focus {
+  box-shadow: unset !important;
+}
+
+// disabled
+.btn:disabled {
+  // background-color: $muted !important;
+  cursor: no-drop !important;
+}

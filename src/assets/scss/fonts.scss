@@ -1,0 +1,18 @@
+// Fonts
+@font-face {
+  font-family: "arabicPrimary";
+  src: url("./assets/fonts/mystore/arabicPrimary.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap; // Instructs the browser to use the fallback font to display the text until the custom font has fully downloaded.
+}
+
+// icons
+@font-face {
+  font-family: "tangoicomoon";
+  src: url("./assets/fonts/icons/icomoon.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  font-display: swap;
+}

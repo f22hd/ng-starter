@@ -1,0 +1,24 @@
+@import 'colors.scss';
+
+// gloabals:
+.form-group {
+	// inputs
+	input[type=text]:hover:enabled,
+	input[type=text]:focus:enabled {
+		border: 1px solid $primary !important;
+		box-shadow: unset !important;
+	}
+	input[type=text]:disabled {
+		cursor: no-drop !important;
+	}
+	// select
+	select:focus {
+		border: 1px solid $primary !important;
+		border-radius: .25rem !important;
+		box-shadow: unset !important;
+	}
+	// placeholder
+	::placeholder {
+		color: $placeholder !important;
+	}
+}

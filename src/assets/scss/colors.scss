@@ -1,0 +1,28 @@
+$primary: #7c4998;
+$secondary: #13acba;
+$muted: #b699c6;
+$black: #333;
+$white: #fff;
+$danger: #f2616e;
+$placeholder: #ced4da;
+$muted: #777;
+
+.bg-secondary {
+  background-color: $secondary !important;
+  color: $white !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+  color: $white !important;
+}
+
+.bg-danger{
+  background-color: $danger !important;
+  color: $white !important;
+}
+
+.bg-muted {
+  background-color: $muted;
+  color: $black;
+}

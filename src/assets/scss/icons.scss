@@ -1,0 +1,160 @@
+.tangoico-search::before {
+  content: "\e900";
+}
+.tangoico-shopping-bag:before {
+  content: "\e902";
+}
+
+.tangoico-heartempty::before {
+  content: "\e918";
+}
+
+.tangoico-heartfilled::before {
+  content: "\e917";
+}
+
+.tangoico-checked::before {
+  content: "\e915";
+}
+
+.tangoico-plus-button:before {
+  content: "\e912";
+}
+
+.tangoico-minus-symbol:before {
+  content: "\e913";
+}
+
+.tangoico-cartnew:before {
+  content: "\e948";
+}
+
+.tangoico-arrow-point-to-right:before {
+  content: "\e914";
+  display: inline-block;
+}
+
+.tangoico-arrow-point-to-left:before {
+  content: "\e914";
+  transform: rotateZ(-180deg);
+  display: inline-block;
+}
+
+.tangoico-arrow-point-to-bottom::before,
+.dropdown-toggle::after {
+  content: "\e914" !important;
+}
+
+.tangoico-arrow-up::before {
+  content: "\e914" !important;
+  transform: rotateZ(-90deg);
+  display: inline-block;
+}
+
+.tangoico-arrow-down::before {
+  content: "\e914" !important;
+  transform: rotateZ(90deg);
+  display: inline-block;
+}
+
+.tangoico-arrowdown::before {
+  content: "\e901";
+}
+
+.tangoico-fast-forward-button:before {
+  content: "\e916";
+}
+
+.tangoico-delivery-cart::before {
+  content: "\e942";
+}
+
+.tangoico-calculation-operations-minus-sign::before {
+  content: "\e90e";
+}
+
+.tangoico-weight-scale::before {
+  content: "\e934";
+}
+
+.tangoico-lightning::before {
+  content: "\e937";
+}
+
+.tangoico-closed::before {
+  content: "\e910";
+}
+
+[class*=" tangoico-"],
+[class^="tangoico-"],
+.dropdown-toggle::after {
+  font-family: tangoicomoon !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: swap;
+}
+
+.tangoico-cancel::before {
+  content: "\e90b";
+}
+
+.twitter::before {
+  content: "\e907";
+}
+
+.facebook::before {
+  content: "\e908";
+}
+
+.snapchat::before {
+  content: "\e909";
+}
+
+.instagram::before {
+  content: "\e93f";
+}
+
+.youtube::before {
+  content: "\e93f";
+}
+
+.google-plus:before {
+  content: "\e90f";
+}
+
+
+.tangoico-star-empty:before {
+  content: "\e9d7";
+}
+
+.tangoico-star-half:before {
+  content: "\e9d8";
+}
+.tangoico-star-full:before {
+  content: "\e9d9";
+}
+
+.tangoico-star:before {
+  content: "\e923";
+}
+
+.tangoico-menu-button:before {
+  content: "\e949";
+}
+
+.tangoico-person::before{
+  content: "\e943";
+}
+
+.tangoico-edit::before{
+  content: '\e936';
+}
+
+.tangoico-trash::before{
+  content: '\e911';
+}
+
