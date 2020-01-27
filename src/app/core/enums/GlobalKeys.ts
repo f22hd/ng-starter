@@ -1,3 +1,3 @@
-export enum GlobalKeys{
-    USER_LANG = 'userLang'
+export enum GlobalKeys {
+  USER_LANG = 'userLang'
 }

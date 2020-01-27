@@ -7,5 +7,5 @@ export enum URLs {
   Category = 'category',
   Checkout = 'checkout',
   Product = 'product',
-  Search = 'search',
+  Search = 'search'
 }

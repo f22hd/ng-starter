@@ -1,4 +1,4 @@
 export enum AppLanguages {
-	ENGLISH = 'en',
-	ARABIC = 'ar'
+  ENGLISH = 'en',
+  ARABIC = 'ar'
 }

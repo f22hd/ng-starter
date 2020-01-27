@@ -1,14 +1,12 @@
 export default class Example {
-    private example:string;
-    constructor() {
-        
-    }
+  private example: string;
+  constructor() {}
 
-    setExample(ex:string){
-        this.example = ex;
-    }
+  setExample(ex: string) {
+    this.example = ex;
+  }
 
-   getExample():string{
-       return this.example;
-   }
+  getExample(): string {
+    return this.example;
+  }
 }
