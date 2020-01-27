@@ -5,7 +5,7 @@ import { Subject } from 'rxjs/internal/Subject';
   providedIn: 'root'
 })
 export class LoaderService {
-  private loader = new Subject<Boolean>();
+  private loader = new Subject<boolean>();
   constructor() {}
 
   show() {

@@ -5,11 +5,11 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 export const translationOptions = {
   loader: {
     provide: TranslateLoader,
-    useFactory: HttpLoaderFactory,
+    useFactory: httpLoaderFactory,
     deps: [HttpClient]
   }
 };
 
-export function HttpLoaderFactory(http: HttpClient) {
+export function httpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/lang/', '.json');
 }

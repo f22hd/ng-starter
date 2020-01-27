@@ -1,6 +1,6 @@
-const BaseUrl = '<END_POINT>';
+const baseUrl = '<END_POINT>';
 
-export const Constants = {
+export const constants = {
   Headers: {
     API_KEY: 'TESTING',
     API_VERSION: '2.0',
@@ -8,6 +8,6 @@ export const Constants = {
     CONTENT_TYPE: 'application/x-www-form-urlencoded'
   },
   auth: {
-    login: BaseUrl + '/login'
+    login: `${baseUrl}/login`
   }
 };
