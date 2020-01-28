@@ -1,27 +1,38 @@
-# Setup
+# Overview
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+This project was built for reducing tasks time when a developer wants to start a new project by the angular framework.
+So this setup including most of the required configuration for each angular project.
+the goal of this setup is a team will be ready to start writing the code immediately.
 
-## Development server
+## What is the configurations are ready?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- ngx-bootstrap. so you can use bootstrap on component level.
+- localization.
+- coloring files, this setup using SCSS.
+- interceptor, for handling each request and response.
+- initializer, loading required styles, and locale, also you can add what is required logic from your side.
+- structured folder based on the job that has to.
+- coding style and formatter.
+  - on pre-commit: will format all the files and implement Airbnb rules.
+  - on pre-push: will generate production build to make sure everything is working as excepted.
 
-## Code scaffolding
+## How to start?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+After cloning this project,
+run these commands in your CLI.
 
-## Build
+```
+npm install -g @angular/cli
+npm install
+ng serve -o
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Contributing
 
-## Running unit tests
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Please make sure to update the tests as appropriate.
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[MIT](https://choosealicense.com/licenses/mit/)
