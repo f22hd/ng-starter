@@ -7,10 +7,10 @@ the goal of this setup is a team will be ready to start writing the code immedia
 ## What is the configurations are ready?
 
 - ngx-bootstrap. so you can use bootstrap on component level.
-- localization.
-- coloring files, this setup using SCSS.
-- interceptor, for handling each request and response.
-- initializer, loading required styles, and locale, also you can add what is required logic from your side.
+- Localization.
+- Coloring files, this setup using SCSS.
+- Interceptor, for handling each request and response.
+- Initializer, loading required styles, and locale, also you can add what is required logic from your side.
 - structured folder based on the job that has to.
 - coding style and formatter.
   - on pre-commit: will format all the files and implement Airbnb rules.
