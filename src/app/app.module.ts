@@ -4,19 +4,13 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { Interceptor } from './core/config/httpinterceptor';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TranslateModule } from '@ngx-translate/core';
-import { translationOptions } from './core/config/translation';
 import { InitializerService } from './services/initializer/initializer.service';
 import { CookieService } from 'ngx-cookie-service';
+import { SharedModule } from './shared.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    TranslateModule.forRoot(translationOptions),
-    HttpClientModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, SharedModule],
   providers: [
     CookieService,
     {

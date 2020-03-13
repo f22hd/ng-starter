@@ -1,4 +1,7 @@
 {
-  "app_name":"Setup",
-  "app_welcome":"Welcome"
+  "app_name": "Trteel",
+  "app_welcome": "Welcome",
+  "submit": "Submit",
+  "mobile": "Mobile",
+  "login": "Login"
 }

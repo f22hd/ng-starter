@@ -1,0 +1,26 @@
+<form class="form" [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+  <div class="form-group">
+    <label for="nationalIdOrEmail">{{ 'nationalIdOrEmail' | translate }}</label>
+    <input
+      class="form-control"
+      placeholder="{{ 'nationalIdOrEmail' | translate }}"
+      type="text"
+      formControlName="nationalIdOrEmail"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="password">{{ 'password' | translate }}</label>
+    <input
+      class="form-control"
+      placeholder="{{ 'password' | translate }}"
+      type="password"
+      formControlName="password"
+    />
+    <button class="btn btn-clear" type="button" (click)="onForgotPasswordClick()">
+      {{ 'forgotPassword' | translate }}
+    </button>
+  </div>
+
+  <button type="submit" class="btn btn-primary">{{ 'login' | translate }}</button>
+</form>

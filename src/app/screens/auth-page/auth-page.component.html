@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-6 col-12">
+      <router-outlet></router-outlet>
+
+      <div class="mt-5 text-center">
+        <button class="btn btn-outline-primary" routerLink="login">
+          {{ 'login' | translate }}
+        </button>
+        <button class="btn btn-outline-primary" routerLink="register">
+          {{ 'register' | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

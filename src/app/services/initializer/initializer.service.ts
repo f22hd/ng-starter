@@ -76,16 +76,15 @@ export class InitializerService {
   }
 
   private setTranslationLang() {
-    this.translate.setDefaultLang(AppLanguages.ENGLISH);
+    this.translate.setDefaultLang(AppLanguages.ARABIC);
 
     const userLang = this.cookie.get(GlobalKeys.USER_LANG);
     if (userLang) {
       this.translate.use(userLang);
     } else {
-      this.cookie.set(GlobalKeys.USER_LANG, AppLanguages.ENGLISH);
-      this.translate.use(AppLanguages.ENGLISH);
+      this.cookie.set(GlobalKeys.USER_LANG, AppLanguages.ARABIC);
+      this.translate.use(AppLanguages.ARABIC);
     }
-
     return Promise.resolve();
   }
 }

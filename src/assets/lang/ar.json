@@ -1,4 +1,7 @@
 {
-  "app_name":"Setup",
-  "app_welcome":"أهلاً وسهلاً"
+  "app_name": "ترتيل",
+  "app_welcome": "أهلاً وسهلاً",
+  "submit": "ارسال",
+  "mobile": "Mobile",
+  "login": "تسجيل دخول"
 }
