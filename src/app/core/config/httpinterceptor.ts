@@ -13,14 +13,14 @@ export class Interceptor implements HttpInterceptor {
   constructor(private loader: LoaderService, private userService: UserService) {}
 
   intercept(req: HttpRequest<any>, next: HttpHandler) {
-    let header: any = {
+    const header: any = {
       'api-key': Constants.Headers.API_KEY,
       'api-version': Constants.Headers.API_VERSION
     };
 
     const user = this.userService.getUser();
     if (user) {
-      header['token'] = user.token;
+      header.token = user.token;
     }
 
     const preparedReq = req.clone({

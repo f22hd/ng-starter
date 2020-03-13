@@ -1,5 +1,5 @@
-export type ApiResponse = {
+export interface ApiResponse {
   isSuccess: boolean;
   message: string;
   data: any;
-};
+}
