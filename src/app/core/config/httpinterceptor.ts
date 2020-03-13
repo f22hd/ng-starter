@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpInterceptor, HttpRequest, HttpHandler, HttpErrorResponse } from '@angular/common/http';
-import { Constants } from './constants';
+import { constants } from './constants';
 import { catchError, finalize } from 'rxjs/operators';
 import { throwError } from 'rxjs';
 import { LoaderService } from 'src/app/services/loader/loader.service';
@@ -14,8 +14,8 @@ export class Interceptor implements HttpInterceptor {
 
   intercept(req: HttpRequest<any>, next: HttpHandler) {
     const header: any = {
-      'api-key': Constants.Headers.API_KEY,
-      'api-version': Constants.Headers.API_VERSION
+      'api-key': constants.Headers.API_KEY,
+      'api-version': constants.Headers.API_VERSION
     };
 
     const user = this.userService.getUser();

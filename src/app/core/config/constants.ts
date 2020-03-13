@@ -1,6 +1,6 @@
 const baseUrl = 'http://127.0.0.1:8000/api';
 
-export const Constants = {
+export const constants = {
   Headers: {
     API_KEY: 'TESTING',
     API_VERSION: '1.0',

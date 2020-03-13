@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "prod": "ng build --prod --aot",
+    "prod": "ng build --prod",
     "test": "ng test",
     "e2e": "ng e2e",
     "lint": "ng lint --fix=true --force=true",
@@ -34,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run precommit && git add",
+      "pre-commit": "npm run precommit && git add .",
       "pre-push": "npm run prod"
     }
   },

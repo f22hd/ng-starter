@@ -1,7 +1,7 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms';
 import { GlobalService } from 'src/app/services/global/global.service';
-import { Constants } from 'src/app/core/config/constants';
+import { constants } from 'src/app/core/config/constants';
 import { ApiResponse } from 'src/app/core/types/ApiResponse';
 import { LocalDBService } from 'src/app/services/app/localDB/local-db.service';
 import { GlobalKeys } from 'src/app/core/enums/GlobalKeys';
@@ -35,7 +35,7 @@ export class LoginFormComponent implements OnInit {
       password: this.form.get('password').value
     };
 
-    const url = Constants.auth.login;
+    const url = constants.auth.login;
     const res: ApiResponse = (await this.service
       .sendPostRequest(url, obj)
       .toPromise()) as ApiResponse;
