@@ -19,33 +19,39 @@ export const constants = {
     delete: '/user'
   },
   markez: {
-    add: '',
-    get: '',
-    update: '',
-    delete: ''
+    add: `${baseUrl}/markez`,
+    get: `${baseUrl}/markez`,
+    update: `${baseUrl}/markez`,
+    delete: `${baseUrl}/markez`
   },
   masjed: {
-    add: '',
-    get: '',
-    update: '',
-    delete: ''
+    add: `${baseUrl}/masjed`,
+    get: `${baseUrl}/masjed`,
+    update: `${baseUrl}/masjed`,
+    delete: `${baseUrl}/masjed`
   },
   halaqa: {
-    add: '',
-    get: '',
-    update: '',
-    delete: ''
+    add: `${baseUrl}/halaqa`,
+    get: `${baseUrl}/halaqa`,
+    update: `${baseUrl}/halaqa`,
+    delete: `${baseUrl}/halaqa`
   },
   exam: {
-    add: '',
-    get: '',
-    update: '',
-    delete: ''
+    add: `${baseUrl}/exam`,
+    get: `${baseUrl}/exam`,
+    update: `${baseUrl}/exam`,
+    delete: `${baseUrl}/exam`
   },
   examResult: {
-    add: '',
-    get: '',
-    update: '',
-    delete: ''
+    add: `${baseUrl}/examresult`,
+    get: `${baseUrl}/examresult`,
+    update: `${baseUrl}/examresult`,
+    delete: `${baseUrl}/examresult`
+  },
+  vendor: {
+    add: `${baseUrl}/vendor`,
+    get: `${baseUrl}/vendor`,
+    update: `${baseUrl}/vendor`,
+    delete: `${baseUrl}/vendor`
   }
 };

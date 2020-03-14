@@ -17,4 +17,9 @@ export class UserService {
   getUser() {
     return this.authedUser;
   }
+
+  clearUser() {
+    this.authedUser = null;
+    delete this.authedUser;
+  }
 }

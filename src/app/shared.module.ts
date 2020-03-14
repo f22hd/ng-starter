@@ -12,6 +12,6 @@ import { translationOptions } from './core/config/translation';
     FormsModule,
     TranslateModule.forRoot(translationOptions)
   ],
-  exports: [ReactiveFormsModule, FormsModule, TranslateModule]
+  exports: [FormsModule, ReactiveFormsModule, TranslateModule]
 })
 export class SharedModule {}

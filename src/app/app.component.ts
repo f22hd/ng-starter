@@ -24,19 +24,10 @@ export class AppComponent implements OnInit {
   private checkAuthenticateUser() {
     const user = this.localDB.get(GlobalKeys.USER);
     this.userService.setUser(user);
-    if (user) {
-      this.router.navigateByUrl('/portal');
-    } else {
-      this.router.navigateByUrl('/auth');
-    }
-
-    // listen to routes and validate it
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationStart) {
-        if (event.url.includes('auth') && this.userService.getUser()) {
-          this.router.navigateByUrl('/portal');
-        }
-      }
-    });
+    // if (user) {
+    //   this.router.navigateByUrl('/portal');
+    // } else {
+    //   this.router.navigateByUrl('/'); // landing page
+    // }
   }
 }

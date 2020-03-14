@@ -8,10 +8,6 @@ const routes: Routes = [
       import('./screens/landing-page/landing-page.module').then(m => m.LandingPageModule)
   },
   {
-    path: 'auth',
-    loadChildren: () => import('./screens/auth-page/auth-page.module').then(m => m.AuthPageModule)
-  },
-  {
     path: 'request',
     loadChildren: () =>
       import('./screens/request-vendor-page/request-vendor-page.module').then(
